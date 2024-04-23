@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global-Tech India Pvt Ltd</title>
+    <!-- Favicons -->
+    <link href="assets/img/GTIPL LOGO 2015 png.png" rel="icon">
+    <link href="assets/img/GTIPL LOGO 2015 png.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Hero Corsewel CDN File -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- font Awesome CDN File -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Client Logo CDN File -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+
+
+    <style>
+        /* Homepage Sector Icons CSS  */
+        .features .icon-box {
+            flex-direction: column;
+            box-shadow: 5px 5px 10px rgba(145, 149, 147, 0.2);
+            background-color: #fff;
+            border: 5px solid #f9f9f9;
+            border-radius: 20px;
+            margin: 20px 50px;
+        }
+
+        .features .icon-box img {
+            width: auto;
+            height: 60px;
+        }
+
+        .features .icon-box h3 {
+            text-align: center;
+            margin-top: 30px;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .features .icon-box:hover {
+            background-color: rgba(253, 127, 57, 0.3);
+        }
+
+        /* End Homepage Sector Icons CSS  */
+
+        /* Client Logo Sector CSS  */
+        .brands {
+            width: 100%;
+        }
+
+        .brands_slider_container {
+
+            border: solid 1px #e8e8e8;
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+            padding-left: 20px;
+            padding-right: 20px;
+            background: #fff;
+        }
+
+        .brands_slider {
+            height: 100%;
+            margin: 20px 0px;
+        }
+
+        .brands_item {
+            /*       width: 200px; */
+            height: 100px;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+        }
+
+        .brands_item img {
+            height: 100%;
+            /*       width: 100% !important; */
+        }
+
+        .brands_nav i {
+            color: #676767;
+            -webkit-transition: all 200ms ease;
+            -moz-transition: all 200ms ease;
+            -ms-transition: all 200ms ease;
+            -o-transition: all 200ms ease;
+            transition: all 200ms ease
+        }
+
+        .brands_nav:hover i {
+            color: red;
+            scale: 2;
+        }
+
+        .brands_prev {
+            left: 40px;
+        }
+
+        .brands_next {
+            right: 40px;
+        }
+
+        /*End Client Logo Sector CSS  */
+        /* Homepage Sector Icons CSS  */
+        .icon-box {
+            background-color: #fff !important;
+            width: 100%;
+
+            display: flex;
+            padding: 10px !important;
+            justify-content: center;
+        }
+
+
+        .icon-box img {
+            max-width: 100%;
+            min-height: 40px;
+            max-height: 150px;
+        }
+
+        .icon-title {
+
+            width: 100%;
+
+        }
+
+        .icon-title h3 {
+            font-family: 'Montserrat', sans-serif !important;
+            color: #FF4500 !important;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .icon-subtitle {
+            text-align: justify;
+            font-family: 'Montserrat', sans-serif !important;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+
+        .card-body {
+            box-shadow: none !important;
+        }
+
+        .card-body .card-title {
+            text-align: left;
+            text-transform: capitalize;
+        }
+
+        .card-body .card-title a {
+            font-family: 'Montserrat', sans-serif !important;
+            color: #FF4500;
+            font-weight: 700 !important;
+        }
+
+        .card-body .card-text {
+            text-align: justify;
+        }
+
+        ul li {
+            font-weight: 500;
+            line-height: 35px;
+        }
+
+        .list-unstyled li {
+            margin: 10px 0 !important;
+            font-weight: 600;
+        }
+
+        /* End Homepage Sector Icons CSS  */
+    </style>
+
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="logo">
+                <h1>
+                    <a href="index.html">
+                        <img src="/assets/img/GTIPL LOGO 2015 png.png">
+                    </a>
+                </h1>
+            </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto " href="/index.html">Home</a></li>
+                    <li><a class="nav-link scrollto" href="/Company.html">Company</a></li>
+                    <li class="dropdown"><a href="#"><span>Sectors</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="/Sector-Automobile.html">Automobile </a></li>
+                            <li><a href="/Sector-Cement_Steel.html">Cement & Steel</a></li>
+                            <li><a href="/Sector-Food_Dairy.html">Food, Pharmaceutical & Dairy</a></li>
+                            <li><a href="/Sector-Industrial_Automation.html">Industrial Automation & Material
+                                    Handing</a></li>
+                            <li><a href="/Sector-Oil_Gas.html">Oil & Gas</a></li>
+                            <li><a href="/Sector-Petrochemical_Refinery.html">Petrochemical, Refinery & Fertilizer</a>
+                            </li>
+                            <li><a href="/Sector-Renewable_Energy.html">Renewable Energy</a></li>
+                            <li><a href="/Sector-Suger_Distillery.html">Suger & Distillery</a></li>
+                            <li><a href="/Sector-Water_Waste.html">Water Waste & Water Treatment Sector </a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="/Piller-Blower.html">Joint Venture</a></li>
+                    <li><a class="nav-link scrollto active" href="/Export.html">Export</a></li>
+                    <li><a class="nav-link scrollto" href="/demo.html">Carreer</a></li>
+                    <li><a class="getstarted scrollto" href="/Contact.html">Contact us</a></li>
+                </ul> <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- ======= Hero Section ======= -->
+    <section class="mt-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="/assets/img/websider/banner9.jpg" alt="First slide">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero -->
+
+    <section id="more-services" class="more-services pb-2">
+        <div class="container">
+            <h6>
+                EXPORTING VARIOUS ENGINEERING GOODS AND PROVIDING INNOVATIVE OUTSOURCING ENGINEERING SOLUTION TO
+                INDUSTRIES IN MIDDLE EAST, UK, EUROPE, AFRICAN AND OTHER COUNTRIES ACROSS THE GLOBE.
+            </h6>
+            <hr>
+        </div>
+    </section>
+
+    <!--  More Services Section -->
+    <section id="more-services" class="more-services pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon-title">
+                        <h3 class="text-center">
+                            ONE STOP ENGINEERING SOLUTION
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 d-flex mt-2 aos-init aos-animate" data-aos="fade-left" data-aos-delay="400">
+                    <div class="card-body">
+                        <h5 class="card-title"><a class="text-black">MEMBERSHIPS AND CERTIFICATIONS</a></h5>
+                        <ul class="list-unstyled">
+                            <li><i class="ri-checkbox-circle-line"></i> ISO 9001-2015 </li>
+                            <li><i class="ri-checkbox-circle-line"></i> FIEO CERTIFICATION (RCMC CERTIFICATE)</li>
+                            <li><i class="ri-checkbox-circle-line"></i> MSME CERTIFICATE </li>
+                        </ul>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex mt-2 aos-init aos-animate" data-aos="fade-right" data-aos-delay="400">
+                    <section>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner2">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" loading="lazy" src="/assets/img/Export/1.jpg"
+                                        alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" loading="lazy" src="/assets/img/Export/2.jpg"
+                                        alt="Second slide">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <hr>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5 d-flex align-items-stretch" data-aos="fade-right" data-aos-delay="100">
+                    <section>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" loading="lazy" src="/assets/img/Company/Banner.JPG"
+                                        alt="First slide">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-md-7 d-flex mt-4" data-aos="fade-left" data-aos-delay="200">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-12">
+                                <div class="icon-title">
+                                    <h3>
+                                        About US
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <p class="card-text">
+                            Global-Tech (India) Pvt Ltd-An ISO 9001-2015 certified company, established in the year
+                            2004, is recognized, renowned and leading Merchant Exporter as well Outsourcing Company
+                            based in Pune (Maharashtra), India exporting various types of Engineering goods and
+                            providing Outsourcing solutions from India to clients based in Europe, Middle East and
+                            African countries at very competitive prices.
+                        </p>
+
+                        <p class="card-text">
+                            We at “Global-Tech (India) Pvt Ltd.” follow QUALITY POLICY are committed to
+                        </p>
+                        <ul>
+                            <li> Provide World class Products and Services with the best value to the customers
+                                Globally.
+                            </li>
+                            <li> Enhance creative capabilities of our Employees. </li>
+                            <li> Establish the leadership position as a leading Merchant Exporter Globally. </li>
+                            <li> Total Customer Satisfaction shall be prime responsibility of every member of
+                                Global-Tech (India) Pvt Ltd. </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12 d-flex" data-aos="fade-left" data-aos-delay="200">
+                    <div class="card-body">
+                        <p class="card-text">Global-Tech offers <b style="color: #FF4500;"> ONE STOP ENGINEERING
+                                SOLUTIONS </b> to Industries across the
+                            Globe. We cater our services to various industrial sectors such as Automobile, Oil & Gas,
+                            steel & Power, Cement & sugar, Process/Refineries & Heavy Engineering Industries.
+                        </p>
+                        <p class="card-text"> Our aim is to build committed relationship and understanding between both
+                            parties involved with realization of great quality and value addition and committed timely
+                            delivery.
+                        </p>
+                        <p class="card-text"> Global-Tech as outsourcing service company is having excellent knowledge
+                            of Indian quality manufactures and supply chain management. We help our valued clients for
+                            sourcing of engineering equipment’s from India.
+                        </p>
+                        <p class="card-text">
+                            Global-Tech Analyse the requirements in terms of technical Scope, Competitive Quality
+                            manufacturing Sources, Logistics and taxation part which helps us identify 3 to 5 suitable
+                            manufacturing vendors based on below credential which will be shared with Client as Vendor
+                            Approval Process.
+                        </p>
+                        <ul>
+                            <li> No of Years of establishment </li>
+                            <li> Location of manufacturing plants </li>
+                            <li> Specialization of vendor </li>
+                            <li> Size of manufacturer in term of – Annual capacity, Annual Turnover, Workforce numbers
+                            </li>
+                            <li> Capital equipment’s for manufacturing (automatic, semi-automatic etc.) </li>
+                            <li> Quality control & measurement equipment’s </li>
+                            <li> Reference list within and outside India </li>
+                        </ul>
+
+                        <p class="card-text">
+                            We have the best sourcing team, which gives us edge in locating buyers / sellers. So that we
+                            can provide customized solutions for customers.
+                        </p>
+                        <p class="card-text">
+                            Our strength is our Associates, who have more than 25 years of International Engineering
+                            Experience, fully operational offices, and warehousing facility.
+                        </p>
+                        <p class="card-text">
+                            Our Pricing Policy has been a secret of our success! We always ensure that our customers get
+                            the best deal. We offer the world class products at the prices better than those offered by
+                            the other sources/ competitors, again supported by our other facilities & services.
+                        </p>
+                        <p class="card-text">
+                            We welcome opportunities in all regions across the world and are confident of our
+                            capabilities to fulfil the same.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- End More Services Section -->
+
+
+    <section id="more-services" class="more-services pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon-title">
+                        <h5>
+                            We specialize in exports of the following products and outsourcing solution for:
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon-title mb-0">
+                        <h3>
+                            1. Sugar Industry:
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-right" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner1.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner2.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-right" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner4.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner5.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section id="more-services" class="more-services">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon-title mb-0">
+                        <h3>
+                            2. Trash & Scrapper Plate:
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-right" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner3.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section id="more-services" class="more-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon-title mb-0">
+                        <h3>
+                            3. Casting and Forgings:
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner6.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section id="more-services" class="more-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon-title mb-0">
+                        <h3>
+                            4. Finished & Semi finished ferrous & non-ferrous Raw Material :
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-right" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner7.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section id="more-services" class="more-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon-title mb-0">
+                        <h3>
+                            5. Industrial Lubrication Systems :
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner8.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section id="more-services" class="more-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon-title mb-0">
+                        <h3>
+                            6. Stainless Steel Seamless & Welded Pipes, Tubes, and ‘U’ Tubes, Fasteners and Forged
+                            Flangess :
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-right" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner9.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner10.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-right" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner11.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section id="more-services" class="more-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon-title mb-0">
+                        <h3>
+                            7. Sealing and Packaging Material :
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner12.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-right" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner13.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section id="more-services" class="more-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon-title mb-0">
+                        <h3>
+                            8. Electric wires and Cables :
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner14.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section id="more-services" class="more-services pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon-title mb-0">
+                        <h3>
+                            9. Material Handling Equipment :
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 d-flex align-items-stretch" data-aos="fade-right" data-aos-delay="100">
+                            <section class="p-2">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" loading="lazy"
+                                                src="/assets/img/Export/Banner15.jpg" alt="First slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!--  More Services Section -->
+    <section class="more-services pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-flex mt-4 aos-init aos-animate" data-aos="fade-left" data-aos-delay="400">
+                    <div class="card-body">
+                        <div class="col-md-12">
+                            <div class="icon-title">
+                                <h3>
+                                    Advantages of “Made in India” Product :
+                                </h3>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <li><i class="ri-arrow-right-fill"></i> Innovative, creative, cutting edge </li>
+                                    <li><i class="ri-arrow-right-fill"></i> Flexible and prepared to modify products and
+                                        services </li>
+                                    <li><i class="ri-arrow-right-fill"></i> High quality, durable, safe </li>
+                                    <li><i class="ri-arrow-right-fill"></i> Positive brand values and awareness </li>
+                                    <li><i class="ri-arrow-right-fill"></i> Reputation for excellent after-sales service
+                                        and warranty coverage </li>
+                                    <li><i class="ri-arrow-right-fill"></i> Creative marketing materials </li>
+                                    <li><i class="ri-arrow-right-fill"></i> Easy to reach and communicate with </li>
+                                    <li><i class="ri-arrow-right-fill"></i> Honest, ethical business dealings </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <!--  More Services Section -->
+    <section id="more-services" class="more-services pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon-title">
+                        <h3 class="text-center">
+                            UNIQUE SELLING POINTS
+                        </h3>
+                    </div>
+                    <p class="card-text">
+                        The company export/outsource products that are unique and which require customization, which are
+                        normally not readily available to clients. This is one of the unique offerings of Global-tech.
+                        We ensure that clients can get their ordered material at committed delivery time as per
+                        requirement.
+                    </p>
+                    <p class="card-text">
+                        The following are some of the <b style="color: #FF4500;">UNIQUE SELING POINTS</b> which
+                        differentiates Global-Tech from the competition:
+                    <ul>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <li> ONE STOP ENGINEERING SOLUTION </li>
+                                <li> We strictly follow Export Foreign Trade Policy set by DGFT. </li>
+                                <li><b> Product Customization:</b> Products are manufactured as per customer’s drawings
+                                    and specifications to ensure the quality and Specification. We arrange drawings/QAP
+                                    for approval, Stage Inspection Plan, Final Inspection etc. </li>
+                                <li> We Provide Knowledge and Technology driven Solutions.</li>
+                                <li><b> Our Pricing Policy </b> has been a secret of our success! We always ensure that
+                                    our customers get the best deal. </li>
+                                <li><b> Credit Facility: </b> Provision of LC as well we offer 30 to 60 Days credit
+                                    facilities. </li>
+                                <li><b> Third Party Inspection: </b> We arrange for third party inspection to make sure
+                                    that product manufactured as per drawing and meets customer requirements /
+                                    specification. </li>
+                                <li><b> Test Certificates: </b> All products are supplied with Test certificates to
+                                    ensure the quality of products. </li>
+                                <li><b> INCO TERMS BENEFITS: </b> Consolidated Shipments Provision for Ex-works, FOB &
+                                    CIF </li>
+                                <li><b> Currency Flexibility: </b>Provisions to offer different currency-Euro, GBP and
+                                    USD etc. </li>
+                                <li><b> Logistic support :</b>Warehouse facility available. We make Outward report to
+                                    make sure the Quantity, Quality of material to ship. Provide Export Sea/Air Worthy
+                                    Packing of goods.
+                                    Consolidated Shipment. Fast Track shipment through premier couriers to meet
+                                    Emergency.
+                                </li>
+                            </div>
+                        </div>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Footer ======= -->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="footerHeading">Our Company</div>
+                    <div class="footerContent">
+                        <a href="/Company.html">About us</a>
+                        <a href="/Piller-Blower.html">Joint Venture</a>
+                        <a href="/Export.html">Export</a>
+                        <a href="/demo.html">Terms of Use</a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="footerHeading">Sectors</div>
+                        <div class="col-md-6">
+                            <div class="footerContent">
+                                <a href="/Sector-Automobile.html">Automobile </a>
+                                <a href="/Sector-Cement_Steel.html">Cement & Steel</a>
+                                <a href="/Sector-Food_Dairy.html">Food & Dairy</a>
+                                <a href="/Sector-Industrial_Automation.html">Industrial Automation & Material
+                                    Handing</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="footerContent">
+                                <a href="/Sector-Renewable_Energy.html">Renewable Energy</a>
+                                <a href="/Sector-Suger_Distillery.html">Suger & Distillery</a>
+                                <a href="/Sector-Renewable_Energy.html">Refinery & Fertilizer</a>
+                                <a href="/Sector-Water_Waste.html">Water Waste & Water Treatment Sector </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center mt-5">
+                <hr>
+                <div class="col-lg-12 col-md-12 text-center">
+                    <div class="copyright">
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear())</script>, <b>Global-Tech (India) Private
+                            Limited</b>. All Rights Reserved
+                    </div>
+                    <div class="credits text-white">
+                        Designed by &#9829; &nbsp; <a class="text-white text-uppercase text-decoration-underline"
+                            target="_blank" href="http://probus.in/">Probus Studio</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Fraud Alert Dialogue box JS File -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+
+    <script>
+        //Websider JS File
+        $('.carousel').carousel({
+            interval: 2000
+        });
+        //End Websider JS File
+    </script>
+
+
+    <script>
+        //    Client Logo JS File
+        $(document).ready(function () {
+            if ($('.brands_slider').length) {
+                var brandsSlider = $('.brands_slider');
+
+                brandsSlider.owlCarousel(
+                    {
+                        loop: true,
+                        autoplay: true,
+                        autoplayTimeout: 1000,
+                        Responsive: true,
+                        nav: false,
+                        dots: false,
+                        autoWidth: true,
+                        fade: true,
+                        items: 8,
+                        margin: 30,
+                        responsiveClass: true,
+                        responsive: {
+                            0: {
+                                items: 1,
+                            },
+                            600: {
+                                items: 3,
+                            },
+                            1000: {
+                                items: 5,
+                            }
+                        }
+                    });
+
+                if ($('.brands_prev').length) {
+                    var prev = $('.brands_prev');
+                    prev.on('click', function () {
+                        brandsSlider.trigger('prev.owl.carousel');
+                    });
+                }
+
+                if ($('.brands_next').length) {
+                    var next = $('.brands_next');
+                    next.on('click', function () {
+                        brandsSlider.trigger('next.owl.carousel');
+                    });
+                }
+            }
+        });
+        // End Client LOGO JS
+    </script>
+</body>
+</html>
