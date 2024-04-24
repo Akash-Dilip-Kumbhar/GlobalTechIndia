@@ -33,6 +33,11 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+@media(min-width: 1300px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl,.container-xxl{
+    max-width: 1300px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Back to top button
