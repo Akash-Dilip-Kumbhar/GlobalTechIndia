@@ -1657,3 +1657,21 @@ section {
 #footer .footer-links a:hover {
   color: #3498db;
 }
+
+.LinkedinBtn {
+  position: fixed;
+  right: 15px;
+  bottom: 60px;
+  z-index: 997;
+  background: #3498db;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.LinkedinBtn i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
