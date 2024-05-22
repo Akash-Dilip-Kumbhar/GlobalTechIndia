@@ -168,7 +168,7 @@
       box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
       margin: 10px 0;
       height: 100%;
-  
+
     }
 
     .product .imgbx {
@@ -380,12 +380,11 @@
             <br>
             <div class="row">
               <div class="col-md-4">
-                <p class="card-text" >
-                   <img src="assets/img/Partner/iSafe/IMG/Partnership.jpg"
-                    alt="Partners" style="width: 100%;" />
-                    <p class="text-center"> Global-Tech Partner Since 2020</p>
-                  </p>
-        
+                <p class="card-text">
+                  <img src="assets/img/Partner/iSafe/IMG/Partnership.jpg" alt="Partners" style="width: 100%;" />
+                <p class="text-center"> Global-Tech Partner Since 2020</p>
+                </p>
+
               </div>
               <div class="col-md-8">
                 <p class="card-text">
@@ -398,8 +397,8 @@
 
                 <p class="card-text">
                   i.safe products are precisely tailored to the requirements of our customers in the Oil & Gas,
-                  Chemical,
-                  Pharmaceutical, Mining, and other demanding branches of industry. All i.safe devices are approved with
+                  Chemical, Pharmaceutical, Mining, and other demanding branches of industry. All i.safe devices are
+                  approved with
                   ATEX, IECEX and numerous global standards.
                 </p>
               </div>
@@ -426,6 +425,9 @@
           <button class="nav-link flex-sm-fill text-sm-center" id="pills-SECTORS-tab" data-bs-toggle="tab"
             data-bs-target="#nav-SECTORS" type="button" role="tab" aria-controls="pills-SECTORS"
             aria-selected="false">APPLICABLE SECTORS</button>
+          <button class="nav-link flex-sm-fill text-sm-center" id="pills-SECTORS-tab" data-bs-toggle="tab"
+            data-bs-target="#nav-Service" type="button" role="tab" aria-controls="pills-SECTORS"
+            aria-selected="false">Service Centre-India</button>
         </div>
       </nav>
       <div class="tab-content" id="nav-tabContent" style="border: 1px solid lightgray; border-top: none;">
@@ -597,7 +599,7 @@
                       </ul>
                     </div>
                   </div>
-                 
+
                 </div>
               </div>
 
@@ -619,7 +621,7 @@
                     </div>
 
                   </div>
-                  
+
                 </div>
               </div>
 
@@ -640,7 +642,7 @@
 
                     </div>
                   </div>
-                 
+
                 </div>
               </div>
 
@@ -662,7 +664,7 @@
                       </ul>
                     </div>
                   </div>
-                
+
                 </div>
               </div>
 
@@ -720,8 +722,7 @@
                       <img src="assets/img/Joint Venture/iSafe/iSafe Client Logo/cipla.png" alt="Image" />
                     </div>
                     <div class="item">
-                      <img src="assets/img/Joint Venture/iSafe/iSafe Client Logo/The_Lupin_Logo.svg.png"
-                        alt="Image" />
+                      <img src="assets/img/Joint Venture/iSafe/iSafe Client Logo/The_Lupin_Logo.svg.png" alt="Image" />
                     </div>
                     <div class="item">
                       <img src="assets/img/Joint Venture/iSafe/iSafe Client Logo/dr.reddy_logo.jpg" alt="Image" />
@@ -787,7 +788,69 @@
 
           </div>
         </div>
-       
+
+        <div class="tab-pane fade" id="nav-Service" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+          <div class="container">
+            <br><br><br>
+            <div class="dumpImg">
+              <div></div>
+              <H1>Comming Soon !</H1>
+
+            </div>
+          </div>
+        </div>
+        <style>
+          .dumpImg {
+            width: 100%;
+            height: 90vh;
+            position: relative;
+            background-image: url("./assets/img/Export/1.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .dumpImg div {
+            position: absolute;
+            background: linear-gradient(-135deg, #808080, #000000);
+            width: 100%;
+            height: 100%;
+            opacity: .8;
+
+          }
+
+          .dumpImg h1 {
+            z-index: 99;
+            letter-spacing: 2px;
+            color: #FF4500;
+            animation: fall 2s linear infinite;
+            transform: translateY(-100%);
+            font-weight: 800;
+            font-size: 60px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif !important;
+          }
+
+
+          @keyframes fall {
+
+            50%,
+            80% {
+              color: #fff;
+              transform: translateY(0);
+              opacity: 1;
+            }
+
+            95%,
+            100% {
+              color: #FF4500;
+              opacity: 0;
+            }
+          }
+        </style>
       </div>
     </div>
   </section>
